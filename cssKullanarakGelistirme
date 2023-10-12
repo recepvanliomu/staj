@@ -1,0 +1,91 @@
+
+
+* {
+    font-family: Helvetica;
+    font-size: 12px;
+}
+
+body {
+    background-color:lightsteelblue ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    width:64%;
+    padding: 3%;
+    text-align: justify;
+    /*seçim engelleyici*/
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+a {
+    font-family: Helvetica;
+}
+
+a.contact {
+    text-align: right;
+}
+
+a:link, :visited {
+    color: rgb(18, 18, 18);
+    text-decoration: none;
+}
+
+a.contact {
+    font-size:12px;
+    font-style: italic;
+    text-align: right;
+}
+a.baslik {
+    font-weight: 700;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table.tablo, th, td {
+    font-family: Helvetica;
+    border: solid 1px gray;
+    border-collapse: collapse;
+}
+
+td {
+    text-align: center;
+    font-size: 12px;
+    width: 20%;
+}
+
+.contact {
+    position:fixed; bottom: 1%;
+    color: black;
+    font-style: italic;
+    margin-bottom: 2%;
+    }
+
+.contact-hr {
+    
+    width: 64%;
+    position: fixed; 
+    bottom: 3%;
+    border-bottom: 1px hidden black;
+    border-left: hidden;
+    border-right: hidden;
+    border-top: hidden;
+    border-collapse: collapse;
+    padding: 0%;
+}
+
+textarea{
+    width:90%;
+    height:200px;
+    resize:none;
+    font-family:'Courier';
+    background-color:rgb(0,30,30);
+    color:rgb(100,225,200);
+}
